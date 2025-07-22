@@ -1,4 +1,4 @@
-package com.taosif.spring_boot_starter.Controller;
+package com.taosif.spring_boot_starter.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -7,4 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
 
+    public Department getDepartmentByDepartmentName(String departmentName);
+
+    public Department getDepartmentByDepartmentNameIgnoreCase(String departmentName);
 }
